@@ -32,5 +32,7 @@ public class Clinica {
         consulta2.setPrescribio(true);
         
         System.out.println("Consulta 2 fecha "+ consulta2.getFechaconsulta()+" duracion: "+consulta2.getDuracionconsulta());
+        System.out.println("Consulta 2 datos ");
+        consulta2.verDatos();
     }
 }
